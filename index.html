@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+<h1 class="titleNew">Definición y ejemplo práctico de lo siguiente:</h1>
+    
+<h1>PREGUNTA 1: OBJECT DOCUMENT</h1>
+<p> Se refiere a Document Object Model (DOM) y permite que los desarrolladores accedan y maniplen los elementos de una web mediante javascript. Es fundamental, ya que permite crear sitios web más interactivos para el usuario, y de la misma forma se puede actualizar la información. <br>
+
+Ejemplo: <br>
+
+<h3 id="title">Bienvenido</h3>
+<p id="parrafo">Este es un gran día para comenzar</p>
+<button id="button">Hello</button>
+</p>
+
+<h1>PREGUNTA 2: OBTENER ELEMENTOS</h1>
+<p>Hace referencia a la selección de elementos HTML para poder interactuar y manipular el contenido. Hay distintas formas, ya sea desde query selector, querySelectorAll, getElementById, getElementByClass, getElementByTag. <br>
+
+Se aplicará un ejemplo con: Query Selector <br>
+
+<nav>
+    <ul>
+        <li> <a id="list" href="#">Inicio</a></li>
+        <li> <a id="list" href="#">Blog</a></li>
+        <li> <a id="list" href="#">Contacto</a></li>
+    </ul>
+</nav>   
+</p>
+
+<h1>PREGUNTA 3: document </h1>
+<p>Hace referencia al objeto global que corresponde al documento actual de un sitio web.
+
+Proporciona acceso a la estructura HTML y facilita la interacción con sus elementos.
+Document forma parte del DOM. <br>
+
+<h3 id="dom">Ejemplo con Document</h3>
+<p>
+
+<h1>PREGUNTA 4: getElementById </h1>
+<p>Es un método que pertenece a Document y permite seleccionar un elemento HTML específico mediante el atributo id. Es útil cuando se desea acceder a un id único dentro de la estructura HTML. <br>
+
+<h3 id="conId">Un nuevo ejemplo</h3>
+</p>
+
+<h1>PREGUNTA 5: Query Selector </h1>
+<p>Es un método que pertenece a Document y permite seleccionar elementos HTML mediante un selector de CSS. A diferencia de ID, este nuevo método es capaz de nombrar una gran variedad de selectores CSS, lo cual hace que sea más práctico y flexible en su uso. <br>
+
+<section class="section_pregunta5">
+    <h4 class="pregunta5">Query Selector</h4>
+</section>
+
+</p>
+
+<h1>PREGUNTA 6: querySelectorAll </h1>
+<p>Al igual que QuerySelector, el QuerySelectorAll es un método de Document, y permite seleccionar todos los elementos HTML que tengan coincidencia con el selector CSS que fue mencionado. Permite seleccionae y actualizar múltiples elementos. <br>
+
+<nav>
+    <ul>
+        <li> <a class="query1" href="#">New</a></li>
+        <li> <a class="query1" href="#">New1</a></li>
+        <li> <a class="query1" href="#">New2</a></li>
+    </ul>
+</nav>
+
+</p>
+
+<h1>PREGUNTA 7: textContent </h1>
+<p>Es una propiedad de los elementos HTML que aplicamos en javascript, y nos permite modificar texto. No es necesario intervenir las etiquetas HTML, sino que la información cambiada se muestra según lo colocado en la propiedad textContent, la cual reduce la preocupación por el constante manejo de las etiquetas HTML. <br>
+
+<h3>Ejemplo:</h3>
+
+<p id="parrafo7">Soy el primer texto</p>
+
+</p>
+
+<h1>PREGUNTA 8: innerHTML </h1>
+<p>Propiedad de los elementos HTML que permite acceder y modificar el contenido HTML. A diferencia del textContent, innerHTML interpreta el contenido dentro del elemento, lo cual significa que puede modificar elementos HTML dentro de otro. <br>
+
+<h3>Ejemplo:</h3> 
+
+<p id="preguntaEight">Aplicando innerHTML</p>
+
+</p>
+
+<h1>PREGUNTA 9: ESTILOS </h1>
+<p>
+Se refiere a las reglas y propiedades que se utilizan para manejar la apariencia de los elementos HTML en un sitio web. Se puede manejar una gran variedad de aspectos visuales, y sin necesidad de acceder únicamente a CSS, la apariencia cambiará. <br>
+
+<button id="button9">Aplicando estilos</button>
+
+</p>
+
+<h1>PREGUNTA 10: .style </h1>
+<p>
+Mediante la propiedad .style se puede acceder a los estilos CSS de los elementos HTML y modificarlos desde Javascript. Podemos mediante .style controlar la apariencia visual y mejorar el dinamismos en la interaccón de los usuarios con el sitio web.
+
+<br>
+
+<i class="fa-brands fa-kickstarter fa-2xl" id="icon"></i>
+
+</p>
+
+<h1>PREGUNTA 11: classlist </h1>
+<p>
+Es una propiedad que modifica los elementos HTML que se encuentra dentro de Javascript y brinda una forma de manipular las clases CSS. Por ejemplo, permite agregar, modificar, y eliminar la existencia de clases en los elementos, y no requiere acudir a css para realizar tales cambios.
+</p> 
+
+<button id="button_11">Aplicando class list</button>
+
+<script src="./app.js"></script>
+
+</body>
+</html>
